@@ -1,0 +1,124 @@
+
+.login-container {
+    background: linear-gradient(-2deg,#252059 50%,#5446c3 50%);
+    color: white;
+    padding: 0;
+    margin: 0;
+    min-height: 110vh;
+    min-width: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    color: black;
+    max-width: 400px;
+    width: 150%;
+    margin: 20px auto 0;
+    /* Menetapkan margin atas sebesar 20px */
+}
+
+.sign-in-text {
+    text-align: center;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: rgb(47, 46, 46);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.github {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #1900ff;
+}
+
+.google {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #1900ff;
+}
+
+.login-form form {
+    margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(110% - 40px);
+    
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.remember-me {
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+button[type=submit] {
+    width: 50%;
+    max-width: 200px;
+    padding: 10px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.links-container {
+    text-align: center;
+    /* Jika ingin tautan berada di tengah */
+}
+
+.links-container span {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    /* Mengatur jarak antar tautan */
+}
+
+a {
+    color: #6c5ce7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ .icon {
+     position: absolute;
+     margin: 12px;
+ }
+
+ h1,
+ p {
+     margin-bottom: 3px;
+ }
